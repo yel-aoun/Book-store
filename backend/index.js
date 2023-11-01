@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Allow Custom Origins
 app.use(cors({
-    origin: "http://localhost:5555",  // allow requests from only localhost:5555
+    origin: "http://localhost:5173",  // allow requests from only localhost:5555
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // allow only these mothodes
     allowedHeaders: ['Content-Type'],
     })
